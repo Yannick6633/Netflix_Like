@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+
 }
 
 /* VIDEO */
@@ -15,6 +16,12 @@ body {
     position: relative;
     top: 0;
     left: 0;
+}
+
+#title-content {
+    position: absolute;
+    top: 50%;
+    color: #ffffff;
 }
 
 h1 {
