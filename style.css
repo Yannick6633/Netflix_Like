@@ -1,1 +1,16 @@
 /* GLOGAL */
+
+body {
+    margin: 0;
+}
+
+/* VIDEO */
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
