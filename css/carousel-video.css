@@ -1,0 +1,65 @@
+#carousel-videos {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 0.1em;
+
+    overflow: hidden;
+    text-overflow: fade;
+}
+
+.video-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 0.1em;
+    margin-right: 0.2em;
+
+    width: 20vw;
+}
+
+.video-card-img {
+    width: 20vw;
+    height: 16vh;
+}
+
+.video-img {
+    width: 20vw;
+    height: 16vh;
+}
+
+.video-card-content {
+    display: none;
+}
+
+.video-card:hover .video-img {
+    display: none;
+    position: relative;
+}
+
+.video-card:hover .video-content {
+    width: 30vw;
+    height: 25vh;
+}
+
+.video-card:hover .video-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 5vw;
+    bottom: 9vh;
+
+    background-color: #303030;
+
+}
