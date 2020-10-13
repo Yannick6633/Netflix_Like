@@ -33,6 +33,15 @@
     float: left;
     font-size: 18px;
   }
+
+  .nav > .nav-icons i {
+    color: #fff;
+    display: inline;
+    float: right;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    margin-right: 20px;
+  }
   
   .nav > .nav-links > a {
     display: inline-block;
