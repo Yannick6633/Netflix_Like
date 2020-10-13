@@ -10,9 +10,6 @@
     bottom: 0;
     left: 0;
     margin-left: 0.1em;
-
-    overflow: hidden;
-    text-overflow: fade;
 }
 
 .video-card {
@@ -23,16 +20,16 @@
     margin-left: 0.1em;
     margin-right: 0.2em;
 
-    width: 20vw;
+    width: 15vw;
 }
 
 .video-card-img {
-    width: 20vw;
+    width: 15vw;
     height: 16vh;
 }
 
 .video-img {
-    width: 20vw;
+    width: 15vw;
     height: 16vh;
 }
 
