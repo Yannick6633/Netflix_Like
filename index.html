@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mon Netflix</title>
 
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/carousel-video.css">
+
+</head>
+<body>
+
     <header>
       <nav class="nav">
         <input type="checkbox" id="nav-check" />
@@ -23,93 +23,146 @@
           <div id="color" class="nav-title">Netflix_Like</div>
         </div>
 
-        <div class="nav-btn">
-          <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </div>
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
 
-        <div class="nav-links">
-          <a href="" target="_blank">Accueil</a>
-          <a href="" target="_blank">Séries</a>
-          <a href="" target="_blank">Films</a>
-          <a href="" target="_blank">Nouveautés</a>
-          <a href="" target="_blank">Ma liste</a>
-        </div>
+            <div class="nav-links">
+              <a href="" target="_blank">Accueil</a>
+              <a href="" target="_blank">Séries</a>
+              <a href="" target="_blank">Films</a>
+              <a href="" target="_blank">Nouveautés</a>
+              <a href="" target="_blank">Ma liste</a>
+            </div>
 
-        <div class="nav-icons">
-          <a href="" target="_blank"><i class="fas fa-search"></i></a>
-          <a href="" target="_blank"><i class="fas fa-gift"></i></a>
-          <a href="" target="_blank"><i class="fas fa-bell"></i></a>
-          <a href="" target="_blank"><i class="fas fa-user-alt"></i></a>
-        </div>
-      </nav>
+            <div class="nav-icons">
+                <a href="" target="_blank"><i class="fas fa-search"></i></a>
+                <a href="" target="_blank"><i class="fas fa-gift"></i></a>
+                <a href="" target="_blank"><i class="fas fa-bell"></i></a>
+                <a href="" target="_blank"><i class="fas fa-user-alt"></i></a>
+              </div>
+            </nav>
+        </nav>
 
-      <section>
-        <video id="bg-video" autoplay loop muted>
-          <source src="videos/Hand Washing .mp4" type="video/mp4" />
-        </video>
-        <div id="title-content">
-          <h1>Hand<br />Washing</h1>
-        </div>
+        <section>
+            <video id="bg-video" autoplay loop muted>
+                <source src="videos/Hand Washing .mp4" type="video/mp4">
+            </video>
+            <div id="title-content">
+                <h1>
+                    Hand<br>Washing
+                </h1>
+            </div>
 
-        <div class="container">
-          <div id="button-read">
-            <button class="read"><i class="fas fa-play"></i> Lecture</button>
-          </div>
+            <div class="container">
+                <div id="button-read">
+                    <button class="read"><i class="fas fa-play"></i> Lecture</button>
+                  </div>
 
-          <div id="button-infos">
-            <button class="infos">
-              <i class="fas fa-exclamation-circle"></i> Plus d'infos
-            </button>
-          </div>
-        </div>
-      </section>
+                  <div id="button-infos">
+                    <button class="infos"><i class="fas fa-exclamation-circle"></i> Plus d'infos</button>
+                  </div>
+            </div>
+        </section>
     </header>
 
     <main>
-      <section id="carousel-videos">
-        <article class="video-card">
-          <video src=""></video>
-          <div class="video-card-toolbar"></div>
-          <p class="video-abstract"></p>
-        </article>
+        <section id="carousel-videos">
+            <article class="video-card">
+                <div class="video-card-img">
+                    <img src="img/Halloween-Zinc.jpg" alt="halloween picture" class="video-img">
+                </div>
+                <div class="video-card-content">
+                    <video class="video-content" autoplay loop muted>
+                        <source src="videos/Halloween%20-%2028397.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-card-toolbar"></div>
+                    <p class="video-abstract">
+                        Vidéo pour halloween, c'est bientôt!
+                    </p>
+                </div>
+            </article>
 
-        <article class="video-card">
-          <video src=""></video>
-          <div class="video-card-toolbar"></div>
-          <p class="video-abstract"></p>
-        </article>
+            <article class="video-card">
+                <div class="video-card-img">
+                    <img src="img/Beach.jpg" alt="beach picture" class="video-img">
+                </div>
+                <div class="video-card-content">
+                    <video class="video-content" autoplay loop muted>
+                        <source src="videos/Beach%20-%203998.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-card-toolbar"></div>
+                    <p class="video-abstract">
+                        Plage qui donne envie d'y aller :)
+                    </p>
+                </div>
+            </article>
 
-        <article class="video-card">
-          <video autoplay loop muted="true">
-            <source src="videos/Kitten%20-%204216.mp4" type="video/mp4" />
-          </video>
-          <div class="video-card-toolbar"></div>
-          <p class="video-abstract"></p>
-        </article>
+            <article class="video-card">
+                <div class="video-card-img">
+                    <img src="img/Mountains.jpg" alt="mountains picture" class="video-img">
+                </div>
+                <div class="video-card-content">
+                    <video class="video-content" autoplay loop muted>
+                        <source src="videos/Mountains%20-%207418.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-card-toolbar"></div>
+                    <p class="video-abstract">
+                        Go faire du Snowboard!
+                    </p>
+                </div>
+            </article>
 
-        <article class="video-card">
-          <video src=""></video>
-          <div class="video-card-toolbar"></div>
-          <p class="video-abstract"></p>
-        </article>
+            <article class="video-card">
+                <div class="video-card-img">
+                    <img src="img/Kitten.jpg" alt="kitten picture" class="video-img">
+                </div>
+                <div class="video-card-content">
+                    <video class="video-content" autoplay loop muted>
+                        <source src="videos/Kitten%20-%204216.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-card-toolbar"></div>
+                    <p class="video-abstract">
+                        Chaton trop mignon!! :3
+                    </p>
+                </div>
+            </article>
 
-        <article class="video-card">
-          <video src=""></video>
-          <div class="video-card-toolbar"></div>
-          <p class="video-abstract"></p>
-        </article>
+            <article class="video-card">
+                <div class="video-card-img">
+                    <img src="img/Nebula%20blue.jpg" alt="blue nebula picture" class="video-img">
+                </div>
+                <div class="video-card-content">
+                    <video class="video-content" autoplay loop muted>
+                        <source src="videos/Nebula%20Blue%20-%2049252.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-card-toolbar"></div>
+                    <p class="video-abstract">
+                        Quelle beauté cette nébuleuse bleue &hearts;
+                    </p>
+                </div>
+            </article>
 
-        <article class="video-card">
-          <video src=""></video>
-          <div class="video-card-toolbar"></div>
-          <p class="video-abstract"></p>
-        </article>
-      </section>
-    </main>
+            <article class="video-card">
+                <div class="video-card-img">
+                    <img src="img/Black%20Hole.jpg" alt="black hole picture" class="video-img">
+                </div>
+                <div class="video-card-content">
+                    <video class="video-content" autoplay loop muted>
+                        <source src="videos/Black%20Hole%20-%2010.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-card-toolbar"></div>
+                    <p class="video-abstract">
+                        Super trou noir!
+                    </p>
+                </div>
+            </article>
+        </section>
+     </main>
 
     <footer></footer>
   </body>
