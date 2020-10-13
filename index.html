@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Netflix</title>
 
-
-
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="style.css">
@@ -15,15 +15,13 @@
 </head>
 <body>
 
-
     <header>
         <nav class="nav">
             <input type="checkbox" id="nav-check">
             <div class="nav-header">
-                <div class="nav-title">
+                <div id="color" class="nav-title">
                     Netflix_Like
                 </div>
-
             </div>
 
             <div class="nav-btn">
@@ -35,20 +33,36 @@
             </div>
 
             <div class="nav-links">
-              <a href="" target="_blank">Products</a>
-              <a href="" target="_blank">Shiping</a>
-              <a href="" target="_blank">Articles</a>
-              <a href="" target="_blank">About Us</a>
+              <a href="" target="_blank">Accueil</a>
+              <a href="" target="_blank">Séries</a>
+              <a href="" target="_blank">Films</a>
+              <a href="" target="_blank">Nouveautés</a>
+              <a href="" target="_blank">Ma liste</a>
             </div>
         </nav>
 
         <section>
-            <video src="videos/Hand%20Washing%20.mp4" autoplay loop playsinline muted></video>
+            <video id="bg-video" autoplay loop muted>
+                <source src="videos/Hand Washing .mp4" type="video/mp4">
+            </video>
+            <div id="title-content">
+                <h1>
+                    Hand<br>Washing
+                </h1>
+            </div>
+
+            <div class="container">
+                <div id="button-read">
+                    <button class="read"><i class="fas fa-play"></i> Lecture</button>
+                  </div>
+
+                  <div id="button-infos">
+                    <button class="infos"><i class="fas fa-exclamation-circle"></i> Plus d'infos</button>
+                  </div>
+            </div>
         </section>
     </header>
 
-
-    
     <main>
         <section id="carousel-videos">
             <article class="video-card">
@@ -145,7 +159,7 @@
 
     <footer></footer>
 
-    
-
 </body>
 </html>
+    
+
