@@ -2,7 +2,8 @@
 
 body {
     margin: 0;
-
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 /* VIDEO */
@@ -11,7 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: relative;
     top: 0;
@@ -28,7 +29,7 @@ h1 {
     margin-left: 2vw;
     text-transform: uppercase;
     line-height: 1.2;
-    font-size: 2vw;
+    font-size: 4vh;
     text-align: left;
 }
 
